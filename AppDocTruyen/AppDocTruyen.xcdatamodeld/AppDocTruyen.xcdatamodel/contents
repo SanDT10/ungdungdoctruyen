@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21D62" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Category" representedClassName="Category" syncable="YES">
+        <attribute name="cateId" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="cateName" attributeType="String" defaultValueString=""/>
+        <relationship name="truyens" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Truyen" inverseName="category" inverseEntity="Truyen"/>
+    </entity>
+    <entity name="Truyen" representedClassName="Truyen" syncable="YES">
+        <attribute name="cateId" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="content" attributeType="String" defaultValueString=""/>
+        <attribute name="danhgia" attributeType="String" defaultValueString=""/>
+        <attribute name="img" attributeType="String" defaultValueString="" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="mota" attributeType="String" defaultValueString=""/>
+        <attribute name="tacgia" attributeType="String" defaultValueString=""/>
+        <attribute name="title" attributeType="String" defaultValueString=""/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="truyens" inverseEntity="Category"/>
+    </entity>
+    <elements>
+        <element name="Category" positionX="182.9036254882812" positionY="-19.00106811523438" width="128" height="88"/>
+        <element name="Truyen" positionX="-63" positionY="-18" width="128" height="149"/>
+    </elements>
+</model>

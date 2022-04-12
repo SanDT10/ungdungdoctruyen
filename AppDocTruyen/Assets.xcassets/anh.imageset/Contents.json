@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "nghebaocodinhtanbocontoi_thumb_640x960-c15b597e8b20-1598417071909-Z3OZgFMU.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A16DFFA27EC1EC40045E79B /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A16DFF927EC1EC40045E79B /* SearchVC.swift */; };
+		0A184AA727E83DEB00095A79 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A184AA527E83DEB00095A79 /* TableCell.swift */; };
+		0A184AA827E83DEB00095A79 /* TableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A184AA627E83DEB00095A79 /* TableCell.xib */; };
+		0A184AAB27E8436300095A79 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A184AA927E8436300095A79 /* DetailVC.swift */; };
+		0A184AAC27E8436300095A79 /* DetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A184AAA27E8436300095A79 /* DetailVC.xib */; };
+		0A26205827E97EA7003AF0F7 /* DocTruyenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A26205627E97EA7003AF0F7 /* DocTruyenVC.swift */; };
+		0A26205927E97EA7003AF0F7 /* DocTruyenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A26205727E97EA7003AF0F7 /* DocTruyenVC.xib */; };
+		0A26208D27E9E6C1003AF0F7 /* CateColCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A26208B27E9E6C1003AF0F7 /* CateColCell.swift */; };
+		0A26208E27E9E6C1003AF0F7 /* CateColCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A26208C27E9E6C1003AF0F7 /* CateColCell.xib */; };
+		0A26209127EAAC1A003AF0F7 /* TongHopTruyenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A26208F27EAAC1A003AF0F7 /* TongHopTruyenVC.swift */; };
+		0A26209227EAAC1A003AF0F7 /* TongHopTruyenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A26209027EAAC1A003AF0F7 /* TongHopTruyenVC.xib */; };
+		0A66261527E43CEA008DBA5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66261427E43CEA008DBA5A /* AppDelegate.swift */; };
+		0A66261727E43CEA008DBA5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66261627E43CEA008DBA5A /* SceneDelegate.swift */; };
+		0A66261927E43CEA008DBA5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66261827E43CEA008DBA5A /* ViewController.swift */; };
+		0A66261C27E43CEA008DBA5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A66261A27E43CEA008DBA5A /* Main.storyboard */; };
+		0A66261F27E43CEA008DBA5A /* AppDocTruyen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A66261D27E43CEA008DBA5A /* AppDocTruyen.xcdatamodeld */; };
+		0A66262127E43CEC008DBA5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A66262027E43CEC008DBA5A /* Assets.xcassets */; };
+		0A66262427E43CEC008DBA5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A66262227E43CEC008DBA5A /* LaunchScreen.storyboard */; };
+		0A66262D27E4454C008DBA5A /* TruyenColCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66262B27E4454C008DBA5A /* TruyenColCell.swift */; };
+		0A66262E27E4454C008DBA5A /* TruyenColCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A66262C27E4454C008DBA5A /* TruyenColCell.xib */; };
+		0A66263027E447A9008DBA5A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66262F27E447A9008DBA5A /* HomeVC.swift */; };
+		0A66263727E4E7AA008DBA5A /* CateMenuColCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66263527E4E7AA008DBA5A /* CateMenuColCell.swift */; };
+		0A66263827E4E7AA008DBA5A /* CateMenuColCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A66263627E4E7AA008DBA5A /* CateMenuColCell.xib */; };
+		0A66263A27E4E965008DBA5A /* Truyenhay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66263927E4E965008DBA5A /* Truyenhay.swift */; };
+		0A66265C27E6CD46008DBA5A /* TabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66265B27E6CD46008DBA5A /* TabbarVC.swift */; };
+		0A66266027E7050B008DBA5A /* TheLoaiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66265F27E7050B008DBA5A /* TheLoaiVC.swift */; };
+		0A66266D27E78541008DBA5A /* Truyen+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66266927E78541008DBA5A /* Truyen+CoreDataClass.swift */; };
+		0A66266E27E78541008DBA5A /* Truyen+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66266A27E78541008DBA5A /* Truyen+CoreDataProperties.swift */; };
+		0A66266F27E78541008DBA5A /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66266B27E78541008DBA5A /* Category+CoreDataClass.swift */; };
+		0A66267027E78541008DBA5A /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66266C27E78541008DBA5A /* Category+CoreDataProperties.swift */; };
+		0A7AF5EA27EC3C2400F95755 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7AF5E927EC3C2400F95755 /* BaseViewController.swift */; };
+		0A89AEAC27EB7DE700174914 /* ImgColCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A89AEAA27EB7DE700174914 /* ImgColCell.swift */; };
+		0A89AEAD27EB7DE700174914 /* ImgColCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A89AEAB27EB7DE700174914 /* ImgColCell.xib */; };
+		5347C471F726504D5BBCE7E0 /* Pods_AppDocTruyen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BC01E164366E9E5106EEE3 /* Pods_AppDocTruyen.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A16DFF927EC1EC40045E79B /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		0A184AA527E83DEB00095A79 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		0A184AA627E83DEB00095A79 /* TableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableCell.xib; sourceTree = "<group>"; };
+		0A184AA927E8436300095A79 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		0A184AAA27E8436300095A79 /* DetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailVC.xib; sourceTree = "<group>"; };
+		0A26205627E97EA7003AF0F7 /* DocTruyenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocTruyenVC.swift; sourceTree = "<group>"; };
+		0A26205727E97EA7003AF0F7 /* DocTruyenVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DocTruyenVC.xib; sourceTree = "<group>"; };
+		0A26208B27E9E6C1003AF0F7 /* CateColCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CateColCell.swift; sourceTree = "<group>"; };
+		0A26208C27E9E6C1003AF0F7 /* CateColCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CateColCell.xib; sourceTree = "<group>"; };
+		0A26208F27EAAC1A003AF0F7 /* TongHopTruyenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TongHopTruyenVC.swift; sourceTree = "<group>"; };
+		0A26209027EAAC1A003AF0F7 /* TongHopTruyenVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TongHopTruyenVC.xib; sourceTree = "<group>"; };
+		0A66261127E43CEA008DBA5A /* AppDocTruyen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppDocTruyen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A66261427E43CEA008DBA5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A66261627E43CEA008DBA5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0A66261827E43CEA008DBA5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A66261B27E43CEA008DBA5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A66261E27E43CEA008DBA5A /* AppDocTruyen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppDocTruyen.xcdatamodel; sourceTree = "<group>"; };
+		0A66262027E43CEC008DBA5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A66262327E43CEC008DBA5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A66262527E43CEC008DBA5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A66262B27E4454C008DBA5A /* TruyenColCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruyenColCell.swift; sourceTree = "<group>"; };
+		0A66262C27E4454C008DBA5A /* TruyenColCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TruyenColCell.xib; sourceTree = "<group>"; };
+		0A66262F27E447A9008DBA5A /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		0A66263527E4E7AA008DBA5A /* CateMenuColCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CateMenuColCell.swift; sourceTree = "<group>"; };
+		0A66263627E4E7AA008DBA5A /* CateMenuColCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CateMenuColCell.xib; sourceTree = "<group>"; };
+		0A66263927E4E965008DBA5A /* Truyenhay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Truyenhay.swift; sourceTree = "<group>"; };
+		0A66265B27E6CD46008DBA5A /* TabbarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarVC.swift; sourceTree = "<group>"; };
+		0A66265F27E7050B008DBA5A /* TheLoaiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheLoaiVC.swift; sourceTree = "<group>"; };
+		0A66266927E78541008DBA5A /* Truyen+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Truyen+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0A66266A27E78541008DBA5A /* Truyen+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Truyen+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0A66266B27E78541008DBA5A /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0A66266C27E78541008DBA5A /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0A7AF5E927EC3C2400F95755 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		0A89AEAA27EB7DE700174914 /* ImgColCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgColCell.swift; sourceTree = "<group>"; };
+		0A89AEAB27EB7DE700174914 /* ImgColCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImgColCell.xib; sourceTree = "<group>"; };
+		5B35A0C60FE8B0B0D2DB5E41 /* Pods-AppDocTruyen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDocTruyen.release.xcconfig"; path = "Target Support Files/Pods-AppDocTruyen/Pods-AppDocTruyen.release.xcconfig"; sourceTree = "<group>"; };
+		C2BC01E164366E9E5106EEE3 /* Pods_AppDocTruyen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppDocTruyen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00F76AB2CE8A66EC2893CCF /* Pods-AppDocTruyen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDocTruyen.debug.xcconfig"; path = "Target Support Files/Pods-AppDocTruyen/Pods-AppDocTruyen.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A66260E27E43CEA008DBA5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5347C471F726504D5BBCE7E0 /* Pods_AppDocTruyen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A66260827E43CE9008DBA5A = {
+			isa = PBXGroup;
+			children = (
+				0A66266927E78541008DBA5A /* Truyen+CoreDataClass.swift */,
+				0A66266A27E78541008DBA5A /* Truyen+CoreDataProperties.swift */,
+				0A66266B27E78541008DBA5A /* Category+CoreDataClass.swift */,
+				0A66266C27E78541008DBA5A /* Category+CoreDataProperties.swift */,
+				0A66261327E43CEA008DBA5A /* AppDocTruyen */,
+				0A66261227E43CEA008DBA5A /* Products */,
+				DFE31E4E5D67021A2E81EBBD /* Pods */,
+				65C9E9658DD823CE126ADEB6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A66261227E43CEA008DBA5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A66261127E43CEA008DBA5A /* AppDocTruyen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A66261327E43CEA008DBA5A /* AppDocTruyen */ = {
+			isa = PBXGroup;
+			children = (
+				0A66265E27E704CD008DBA5A /* controller */,
+				0A66265D27E704B6008DBA5A /* view */,
+				0A66261427E43CEA008DBA5A /* AppDelegate.swift */,
+				0A66261627E43CEA008DBA5A /* SceneDelegate.swift */,
+				0A66262027E43CEC008DBA5A /* Assets.xcassets */,
+				0A66262527E43CEC008DBA5A /* Info.plist */,
+				0A66261D27E43CEA008DBA5A /* AppDocTruyen.xcdatamodeld */,
+			);
+			path = AppDocTruyen;
+			sourceTree = "<group>";
+		};
+		0A66265D27E704B6008DBA5A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0A89AEAB27EB7DE700174914 /* ImgColCell.xib */,
+				0A66261A27E43CEA008DBA5A /* Main.storyboard */,
+				0A66262C27E4454C008DBA5A /* TruyenColCell.xib */,
+				0A66263627E4E7AA008DBA5A /* CateMenuColCell.xib */,
+				0A66262227E43CEC008DBA5A /* LaunchScreen.storyboard */,
+				0A184AA627E83DEB00095A79 /* TableCell.xib */,
+				0A26205727E97EA7003AF0F7 /* DocTruyenVC.xib */,
+				0A184AAA27E8436300095A79 /* DetailVC.xib */,
+				0A26208C27E9E6C1003AF0F7 /* CateColCell.xib */,
+				0A26209027EAAC1A003AF0F7 /* TongHopTruyenVC.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		0A66265E27E704CD008DBA5A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A89AEA527EACD7200174914 /* tabbar */,
+				0A66261827E43CEA008DBA5A /* ViewController.swift */,
+				0A66262B27E4454C008DBA5A /* TruyenColCell.swift */,
+				0A66263527E4E7AA008DBA5A /* CateMenuColCell.swift */,
+				0A184AA527E83DEB00095A79 /* TableCell.swift */,
+				0A184AA927E8436300095A79 /* DetailVC.swift */,
+				0A26205627E97EA7003AF0F7 /* DocTruyenVC.swift */,
+				0A26208B27E9E6C1003AF0F7 /* CateColCell.swift */,
+				0A26208F27EAAC1A003AF0F7 /* TongHopTruyenVC.swift */,
+				0A89AEAA27EB7DE700174914 /* ImgColCell.swift */,
+				0A7AF5E927EC3C2400F95755 /* BaseViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		0A89AEA527EACD7200174914 /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				0A66263927E4E965008DBA5A /* Truyenhay.swift */,
+				0A66265B27E6CD46008DBA5A /* TabbarVC.swift */,
+				0A66262F27E447A9008DBA5A /* HomeVC.swift */,
+				0A66265F27E7050B008DBA5A /* TheLoaiVC.swift */,
+				0A16DFF927EC1EC40045E79B /* SearchVC.swift */,
+			);
+			path = tabbar;
+			sourceTree = "<group>";
+		};
+		65C9E9658DD823CE126ADEB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2BC01E164366E9E5106EEE3 /* Pods_AppDocTruyen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFE31E4E5D67021A2E81EBBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E00F76AB2CE8A66EC2893CCF /* Pods-AppDocTruyen.debug.xcconfig */,
+				5B35A0C60FE8B0B0D2DB5E41 /* Pods-AppDocTruyen.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A66261027E43CEA008DBA5A /* AppDocTruyen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A66262827E43CEC008DBA5A /* Build configuration list for PBXNativeTarget "AppDocTruyen" */;
+			buildPhases = (
+				E81B8CB5F18F5BEAF48A22C5 /* [CP] Check Pods Manifest.lock */,
+				0A66260D27E43CEA008DBA5A /* Sources */,
+				0A66260E27E43CEA008DBA5A /* Frameworks */,
+				0A66260F27E43CEA008DBA5A /* Resources */,
+				60861B26C8631A35E736D0DA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppDocTruyen;
+			productName = AppDocTruyen;
+			productReference = 0A66261127E43CEA008DBA5A /* AppDocTruyen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A66260927E43CE9008DBA5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					0A66261027E43CEA008DBA5A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 0A66260C27E43CE9008DBA5A /* Build configuration list for PBXProject "AppDocTruyen" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A66260827E43CE9008DBA5A;
+			productRefGroup = 0A66261227E43CEA008DBA5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A66261027E43CEA008DBA5A /* AppDocTruyen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A66260F27E43CEA008DBA5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A66262427E43CEC008DBA5A /* LaunchScreen.storyboard in Resources */,
+				0A66262127E43CEC008DBA5A /* Assets.xcassets in Resources */,
+				0A89AEAD27EB7DE700174914 /* ImgColCell.xib in Resources */,
+				0A26208E27E9E6C1003AF0F7 /* CateColCell.xib in Resources */,
+				0A66261C27E43CEA008DBA5A /* Main.storyboard in Resources */,
+				0A184AAC27E8436300095A79 /* DetailVC.xib in Resources */,
+				0A66262E27E4454C008DBA5A /* TruyenColCell.xib in Resources */,
+				0A184AA827E83DEB00095A79 /* TableCell.xib in Resources */,
+				0A26205927E97EA7003AF0F7 /* DocTruyenVC.xib in Resources */,
+				0A66263827E4E7AA008DBA5A /* CateMenuColCell.xib in Resources */,
+				0A26209227EAAC1A003AF0F7 /* TongHopTruyenVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60861B26C8631A35E736D0DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppDocTruyen/Pods-AppDocTruyen-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppDocTruyen/Pods-AppDocTruyen-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppDocTruyen/Pods-AppDocTruyen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E81B8CB5F18F5BEAF48A22C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppDocTruyen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A66260D27E43CEA008DBA5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A184AA727E83DEB00095A79 /* TableCell.swift in Sources */,
+				0A66262D27E4454C008DBA5A /* TruyenColCell.swift in Sources */,
+				0A66266027E7050B008DBA5A /* TheLoaiVC.swift in Sources */,
+				0A66261927E43CEA008DBA5A /* ViewController.swift in Sources */,
+				0A66266F27E78541008DBA5A /* Category+CoreDataClass.swift in Sources */,
+				0A184AAB27E8436300095A79 /* DetailVC.swift in Sources */,
+				0A16DFFA27EC1EC40045E79B /* SearchVC.swift in Sources */,
+				0A66266D27E78541008DBA5A /* Truyen+CoreDataClass.swift in Sources */,
+				0A66266E27E78541008DBA5A /* Truyen+CoreDataProperties.swift in Sources */,
+				0A66265C27E6CD46008DBA5A /* TabbarVC.swift in Sources */,
+				0A66267027E78541008DBA5A /* Category+CoreDataProperties.swift in Sources */,
+				0A26209127EAAC1A003AF0F7 /* TongHopTruyenVC.swift in Sources */,
+				0A66261527E43CEA008DBA5A /* AppDelegate.swift in Sources */,
+				0A7AF5EA27EC3C2400F95755 /* BaseViewController.swift in Sources */,
+				0A66263A27E4E965008DBA5A /* Truyenhay.swift in Sources */,
+				0A66263027E447A9008DBA5A /* HomeVC.swift in Sources */,
+				0A66261727E43CEA008DBA5A /* SceneDelegate.swift in Sources */,
+				0A66263727E4E7AA008DBA5A /* CateMenuColCell.swift in Sources */,
+				0A26208D27E9E6C1003AF0F7 /* CateColCell.swift in Sources */,
+				0A26205827E97EA7003AF0F7 /* DocTruyenVC.swift in Sources */,
+				0A89AEAC27EB7DE700174914 /* ImgColCell.swift in Sources */,
+				0A66261F27E43CEA008DBA5A /* AppDocTruyen.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A66261A27E43CEA008DBA5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A66261B27E43CEA008DBA5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A66262227E43CEC008DBA5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A66262327E43CEC008DBA5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A66262627E43CEC008DBA5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A66262727E43CEC008DBA5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A66262927E43CEC008DBA5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E00F76AB2CE8A66EC2893CCF /* Pods-AppDocTruyen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23JB9YBP7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppDocTruyen/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TimeCompany.AppDocTruyen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A66262A27E43CEC008DBA5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B35A0C60FE8B0B0D2DB5E41 /* Pods-AppDocTruyen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23JB9YBP7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppDocTruyen/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TimeCompany.AppDocTruyen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A66260C27E43CE9008DBA5A /* Build configuration list for PBXProject "AppDocTruyen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A66262627E43CEC008DBA5A /* Debug */,
+				0A66262727E43CEC008DBA5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A66262827E43CEC008DBA5A /* Build configuration list for PBXNativeTarget "AppDocTruyen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A66262927E43CEC008DBA5A /* Debug */,
+				0A66262A27E43CEC008DBA5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0A66261D27E43CEA008DBA5A /* AppDocTruyen.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0A66261E27E43CEA008DBA5A /* AppDocTruyen.xcdatamodel */,
+			);
+			currentVersion = 0A66261E27E43CEA008DBA5A /* AppDocTruyen.xcdatamodel */;
+			path = AppDocTruyen.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0A66260927E43CE9008DBA5A /* Project object */;
+}
